@@ -19,6 +19,13 @@ langMenu.addEventListener("click", (e) => {
     langMenu.classList.remove("active");
 });
 
+const navBtn = document.getElementById("nav-btn");
+const navMenu = document.getElementById("header-bottom-nav");
+
+navBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+
 /**
  * Banner
  */
